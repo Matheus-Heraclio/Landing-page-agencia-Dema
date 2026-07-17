@@ -1,8 +1,8 @@
 Sobre o Projeto
 
-A DEMA é uma agência de marketing e design com mais de 5 anos de mercado, localizada em Paulista/PE. Eles me procuraram para criar um site que representasse a identidade visual da marca e que servisse como vitrine para os serviços oferecidos.
+A DEMA é uma agência de marketing e design com mais de 5 anos de mercado, localizada em Paulista/PE. Eles queriam criar um site que representasse a identidade visual da marca e que servisse como vitrine para os serviços oferecidos.
 
-O site foi desenvolvido do zero, sem uso de templates prontos, com foco em uma identidade visual dark e moderna que refletisse o trabalho de design digital que a agência entrega aos próprios clientes.
+O site foi desenvolvido do zero, com foco em uma identidade visual moderna que refletisse o trabalho de design digital que a agência entrega aos próprios clientes.
 
 O que foi entregue
 
