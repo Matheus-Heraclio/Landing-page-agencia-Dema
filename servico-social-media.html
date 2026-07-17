@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Posts para Redes Sociais | DEMA - Agência de Marketing e Design</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="servicos.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+</head>
+<body>
+    
+    <!-- Cursor Personalizado -->
+    <div class="custom-cursor" id="customCursor"></div>
+    <div class="custom-cursor-follower" id="customCursorFollower"></div>
+    
+    <!-- Navegação -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <a href="index.html">
+                    <img src="logo.webp" alt="DEMA MKT DIGITAL" class="logo-img">
+                </a>
+            </div>
+            <ul class="nav-links">
+                <li><a href="index.html">Início</a></li>
+                <li><a href="index.html#sobre">Quem somos</a></li>
+                <li><a href="index.html#servicos">Serviços</a></li>
+                <li><a href="index.html#portfolio">Portfólio</a></li>
+                <li><a href="index.html#contato">Contato</a></li>
+            </ul>
+            <button class="nav-cta" onclick="window.location.href='index.html#contato'">Fale conosco</button>
+            <div class="hamburger" id="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero do Serviço -->
+    <section class="service-hero">
+        <div class="service-hero-bg"></div>
+        <div class="service-hero-container container">
+            <div class="service-hero-content reveal-bottom">
+                <div class="service-icon-large">
+                    <svg viewBox="0 0 80 80" class="svc-hero-svg">
+                        <path d="M40 8 L60 28 L60 52 L40 72 L20 52 L20 28 Z" fill="none" stroke="var(--color-accent)" stroke-width="2"/>
+                        <path d="M40 18 L50 28 L50 48 L40 62 L30 48 L30 28 Z" fill="none" stroke="var(--color-accent)" stroke-width="2"/>
+                        <path d="M40 28 L45 33 L45 43 L40 52 L35 43 L35 33 Z" fill="var(--color-accent)" opacity="0.15"/>
+                    </svg>
+                </div>
+                <h1 class="service-hero-title">Posts para Redes Sociais</h1>
+                <p class="service-hero-subtitle">Criamos conteúdo visual estratégico para engajar sua audiência e fortalecer sua presença digital.</p>
+                <div class="service-hero-actions">
+                    <a href="index.html#contato" class="btn btn-primary btn-large">Solicitar orçamento</a>
+                    <a href="index.html" class="btn btn-outline">Voltar ao site</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Detalhes do Serviço -->
+    <section class="service-details">
+        <div class="container">
+            <div class="details-grid">
+                <div class="detail-card reveal-bottom" data-reveal-delay="100">
+                    <div class="detail-icon">
+                        <svg viewBox="0 0 48 48" width="40" height="40" fill="none" stroke="var(--color-accent)" stroke-width="1.5">
+                            <rect x="4" y="8" width="40" height="32" rx="4"/>
+                            <circle cx="16" cy="20" r="4"/>
+                            <path d="M4 34 L18 24 L26 30 L36 20 L44 28"/>
+                        </svg>
+                    </div>
+                    <h3 class="detail-title">Design Profissional</h3>
+                    <p class="detail-text">Posts com identidade visual consistente, cores da marca e tipografia estratégica que comunicam profissionalismo e autoridade.</p>
+                </div>
+                <div class="detail-card reveal-bottom" data-reveal-delay="200">
+                    <div class="detail-icon">
+                        <svg viewBox="0 0 48 48" width="40" height="40" fill="none" stroke="var(--color-accent)" stroke-width="1.5">
+                            <path d="M6 12 L42 12"/>
+                            <path d="M6 24 L32 24"/>
+                            <path d="M6 36 L38 36"/>
+                            <path d="M6 12 L6 36"/>
+                        </svg>
+                    </div>
+                    <h3 class="detail-title">Calendário de Conteúdo</h3>
+                    <p class="detail-text">Planejamento estratégico de posts com temas, datas e objetivos definidos para manter sua presença ativa e relevante.</p>
+                </div>
+                <div class="detail-card reveal-bottom" data-reveal-delay="300">
+                    <div class="detail-icon">
+                        <svg viewBox="0 0 48 48" width="40" height="40" fill="none" stroke="var(--color-accent)" stroke-width="1.5">
+                            <path d="M24 6 L24 18"/>
+                            <path d="M24 30 L24 42"/>
+                            <path d="M12 18 L12 30"/>
+                            <path d="M36 18 L36 30"/>
+                            <rect x="8" y="12" width="32" height="24" rx="4"/>
+                        </svg>
+                    </div>
+                    <h3 class="detail-title">Formatos para Todas as Redes</h3>
+                    <p class="detail-text">Posts, stories, reels, carrosséis e capas — criamos em todos os formatos necessários para Instagram, Facebook, LinkedIn e mais.</p>
+                </div>
+                <div class="detail-card reveal-bottom" data-reveal-delay="400">
+                    <div class="detail-icon">
+                        <svg viewBox="0 0 48 48" width="40" height="40" fill="none" stroke="var(--color-accent)" stroke-width="1.5">
+                            <path d="M14 38 L24 10 L34 38"/>
+                            <path d="M18 30 L30 30"/>
+                        </svg>
+                    </div>
+                    <h3 class="detail-title">Estratégia de Engajamento</h3>
+                    <p class="detail-text">Conteúdo pensado para gerar interação — perguntas, CTAs, storytelling e elementos visuais que despertam curiosidade e conexão.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- O que entregamos -->
+    <section class="service-deliverables">
+        <div class="container">
+            <div class="section-label reveal-top">O que você recebe</div>
+            <h2 class="section-title reveal-top" data-reveal-delay="100">Entregas do serviço</h2>
+            <div class="deliverables-list">
+                <div class="deliverable-item reveal-left" data-reveal-delay="100">
+                    <span class="deliverable-number">01</span>
+                    <div class="deliverable-content">
+                        <h4>Pacotes mensais de posts</h4>
+                        <p>Quantidade definida de artes por mês, com variedade de formatos e tipos de conteúdo.</p>
+                    </div>
+                </div>
+                <div class="deliverable-item reveal-left" data-reveal-delay="200">
+                    <span class="deliverable-number">02</span>
+                    <div class="deliverable-content">
+                        <h4>Identidade visual unificada</h4>
+                        <p>Todas as artes mantêm a mesma linguagem visual — cores, fontes, estilo e tom da sua marca.</p>
+                    </div>
+                </div>
+                <div class="deliverable-item reveal-left" data-reveal-delay="300">
+                    <span class="deliverable-number">03</span>
+                    <div class="deliverable-content">
+                        <h4>Copywriting estratégico</h4>
+                        <p>Legendas e textos otimizados com gatilhos mentais, CTAs e storytelling que engajam.</p>
+                    </div>
+                </div>
+                <div class="deliverable-item reveal-left" data-reveal-delay="400">
+                    <span class="deliverable-number">04</span>
+                    <div class="deliverable-content">
+                        <h4>Stories e reels</h4>
+                        <p>Formatos verticais e dinâmicos para Stories e Reels do Instagram, com animações e transições.</p>
+                    </div>
+                </div>
+                <div class="deliverable-item reveal-left" data-reveal-delay="500">
+                    <span class="deliverable-number">05</span>
+                    <div class="deliverable-content">
+                        <h4>Relatório de performance</h4>
+                        <p>Acompanhamento de métricas dos posts para entender o que funciona e otimizar os resultados.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA final -->
+    <section class="service-cta">
+        <div class="container">
+            <div class="service-cta-content reveal-scale">
+                <h2>Quer posts que fazem sua audiência parar e engajar?</h2>
+                <p>Vamos criar conteúdo que representa sua marca com excelência.</p>
+                <a href="index.html#contato" class="btn btn-primary btn-large">Falar com a equipe</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Script -->
+    <script src="script.js"></script>
+    <script src="https://unpkg.com/scrollreveal"></script>
+</body>
+</html>

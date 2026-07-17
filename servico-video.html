@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Edição de Vídeo | DEMA - Agência de Marketing e Design</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="servicos.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+</head>
+<body>
+    
+    <!-- Cursor Personalizado -->
+    <div class="custom-cursor" id="customCursor"></div>
+    <div class="custom-cursor-follower" id="customCursorFollower"></div>
+    
+    <!-- Navegação -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <a href="index.html">
+                    <img src="logo.webp" alt="DEMA MKT DIGITAL" class="logo-img">
+                </a>
+            </div>
+            <ul class="nav-links">
+                <li><a href="index.html">Início</a></li>
+                <li><a href="index.html#sobre">Quem somos</a></li>
+                <li><a href="index.html#servicos">Serviços</a></li>
+                <li><a href="index.html#portfolio">Portfólio</a></li>
+                <li><a href="index.html#contato">Contato</a></li>
+            </ul>
+            <button class="nav-cta" onclick="window.location.href='index.html#contato'">Fale conosco</button>
+            <div class="hamburger" id="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero do Serviço -->
+    <section class="service-hero">
+        <div class="service-hero-bg"></div>
+        <div class="service-hero-container container">
+            <div class="service-hero-content reveal-bottom">
+                <div class="service-icon-large">
+                    <svg viewBox="0 0 80 80" class="svc-hero-svg">
+                        <circle cx="40" cy="40" r="30" fill="none" stroke="var(--color-accent)" stroke-width="2"/>
+                        <circle cx="40" cy="40" r="10" fill="none" stroke="var(--color-accent)" stroke-width="1.5"/>
+                        <circle cx="40" cy="40" r="3" fill="var(--color-accent)" opacity="0.5"/>
+                        <path d="M40 8 L40 20"/>
+                        <path d="M40 60 L40 72"/>
+                        <path d="M8 40 L20 40"/>
+                        <path d="M60 40 L72 40"/>
+                    </svg>
+                </div>
+                <h1 class="service-hero-title">Edição de Vídeo</h1>
+                <p class="service-hero-subtitle">Edição profissional que transforma seus vídeos em conteúdo de alto impacto e qualidade cinematográfica.</p>
+                <div class="service-hero-actions">
+                    <a href="index.html#contato" class="btn btn-primary btn-large">Solicitar orçamento</a>
+                    <a href="index.html" class="btn btn-outline">Voltar ao site</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Detalhes do Serviço -->
+    <section class="service-details">
+        <div class="container">
+            <div class="details-grid">
+                <div class="detail-card reveal-bottom" data-reveal-delay="100">
+                    <div class="detail-icon">
+                        <svg viewBox="0 0 48 48" width="40" height="40" fill="none" stroke="var(--color-accent)" stroke-width="1.5">
+                            <rect x="4" y="8" width="40" height="28" rx="4"/>
+                            <path d="M20 20 L20 28 L28 24 Z" fill="var(--color-accent)" opacity="0.3"/>
+                            <path d="M4 36 L44 36"/>
+                        </svg>
+                    </div>
+                    <h3 class="detail-title">Edição Completa</h3>
+                    <p class="detail-text">Corte, montagem, ritmo e narrativa. Transformamos seus vídeos brutos em produções finais com qualidade profissional e storytelling envolvente.</p>
+                </div>
+                <div class="detail-card reveal-bottom" data-reveal-delay="200">
+                    <div class="detail-icon">
+                        <svg viewBox="0 0 48 48" width="40" height="40" fill="none" stroke="var(--color-accent)" stroke-width="1.5">
+                            <path d="M8 36 L12 20 L20 28 L28 12 L36 24 L40 16"/>
+                            <path d="M8 40 L40 40"/>
+                            <path d="M4 8 L44 8"/>
+                        </svg>
+                    </div>
+                    <h3 class="detail-title">Color Grading</h3>
+                    <p class="detail-text">Correção de cor e color grading que dão identidade visual única aos seus vídeos, criando atmosfera e destaque profissional.</p>
+                </div>
+                <div class="detail-card reveal-bottom" data-reveal-delay="300">
+                    <div class="detail-icon">
+                        <svg viewBox="0 0 48 48" width="40" height="40" fill="none" stroke="var(--color-accent)" stroke-width="1.5">
+                            <path d="M12 8 L12 40"/>
+                            <path d="M12 8 L36 8"/>
+                            <path d="M12 24 L36 24"/>
+                            <path d="M28 8 L28 40"/>
+                            <path d="M8 4 L36 4"/>
+                        </svg>
+                    </div>
+                    <h3 class="detail-title">Motion Graphics</h3>
+                    <p class="detail-text">Animações, textos dinâmicos, lower thirds e elementos gráficos que elevam a qualidade e o profissionalismo dos seus vídeos.</p>
+                </div>
+                <div class="detail-card reveal-bottom" data-reveal-delay="400">
+                    <div class="detail-icon">
+                        <svg viewBox="0 0 48 48" width="40" height="40" fill="none" stroke="var(--color-accent)" stroke-width="1.5">
+                            <path d="M8 24 L16 24 L16 12 L32 12 L32 36 L40 36"/>
+                            <path d="M16 24 L32 24"/>
+                            <circle cx="8" cy="24" r="4"/>
+                            <circle cx="40" cy="36" r="4"/>
+                        </svg>
+                    </div>
+                    <h3 class="detail-title">Trilha Sonora e Sound Design</h3>
+                    <p class="detail-text">Seleção de músicas, efeitos sonoros e mixagem de áudio que complementam a narrativa e criam uma experiência audiovisual completa.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- O que entregamos -->
+    <section class="service-deliverables">
+        <div class="container">
+            <div class="section-label reveal-top">O que você recebe</div>
+            <h2 class="section-title reveal-top" data-reveal-delay="100">Entregas do serviço</h2>
+            <div class="deliverables-list">
+                <div class="deliverable-item reveal-left" data-reveal-delay="100">
+                    <span class="deliverable-number">01</span>
+                    <div class="deliverable-content">
+                        <h4>Vídeos para Redes Sociais</h4>
+                        <p>Reels, Shorts e TikToks otimizados para cada plataforma — formato vertical, ritmo dinâmico e legendas.</p>
+                    </div>
+                </div>
+                <div class="deliverable-item reveal-left" data-reveal-delay="200">
+                    <span class="deliverable-number">02</span>
+                    <div class="deliverable-content">
+                        <h4>Vídeos Institucionais</h4>
+                        <p>Produções que apresentam sua empresa, valores e serviços com qualidade cinematográfica.</p>
+                    </div>
+                </div>
+                <div class="deliverable-item reveal-left" data-reveal-delay="300">
+                    <span class="deliverable-number">03</span>
+                    <div class="deliverable-content">
+                        <h4>Vídeos para Anúncios</h4>
+                        <p>Criativos otimizados para campanhas de tráfego pago — nos primeiros 3 segundos que captam a atenção.</p>
+                    </div>
+                </div>
+                <div class="deliverable-item reveal-left" data-reveal-delay="400">
+                    <span class="deliverable-number">04</span>
+                    <div class="deliverable-content">
+                        <h4>Depoimentos e Cases</h4>
+                        <p>Vídeos de clientes satisfeitos que geram prova social e aumentam a credibilidade da sua marca.</p>
+                    </div>
+                </div>
+                <div class="deliverable-item reveal-left" data-reveal-delay="500">
+                    <span class="deliverable-number">05</span>
+                    <div class="deliverable-content">
+                        <h4>Edição de Lives e Eventos</h4>
+                        <p>Transformamos gravações longas em conteúdos curtos e estratégicos — highlights e melhores momentos.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA final -->
+    <section class="service-cta">
+        <div class="container">
+            <div class="service-cta-content reveal-scale">
+                <h2>Pronto para dar vida aos seus vídeos?</h2>
+                <p>Vamos transformar suas ideias em produções visuais que impressionam e convertem.</p>
+                <a href="index.html#contato" class="btn btn-primary btn-large">Falar com a equipe</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Script -->
+    <script src="script.js"></script>
+    <script src="https://unpkg.com/scrollreveal"></script>
+</body>
+</html>

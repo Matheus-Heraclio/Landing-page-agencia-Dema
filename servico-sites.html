@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sites & Landing Pages | DEMA - Agência de Marketing e Design</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="servicos.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+</head>
+<body>
+    
+    <!-- Cursor Personalizado -->
+    <div class="custom-cursor" id="customCursor"></div>
+    <div class="custom-cursor-follower" id="customCursorFollower"></div>
+    
+    <!-- Navegação -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <a href="index.html">
+                    <img src="logo.webp" alt="DEMA MKT DIGITAL" class="logo-img">
+                </a>
+            </div>
+            <ul class="nav-links">
+                <li><a href="index.html">Início</a></li>
+                <li><a href="index.html#sobre">Quem somos</a></li>
+                <li><a href="index.html#servicos">Serviços</a></li>
+                <li><a href="index.html#portfolio">Portfólio</a></li>
+                <li><a href="index.html#contato">Contato</a></li>
+            </ul>
+            <button class="nav-cta" onclick="window.location.href='index.html#contato'">Fale conosco</button>
+            <div class="hamburger" id="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero do Serviço -->
+    <section class="service-hero">
+        <div class="service-hero-bg"></div>
+        <div class="service-hero-container container">
+            <div class="service-hero-content reveal-bottom">
+                <div class="service-icon-large">
+                    <svg viewBox="0 0 80 80" class="svc-hero-svg">
+                        <rect x="8" y="8" width="64" height="64" rx="12" fill="none" stroke="var(--color-accent)" stroke-width="2"/>
+                        <path d="M20 32 L40 18 L60 32 L60 52 L40 66 L20 52 Z" fill="none" stroke="var(--color-accent)" stroke-width="2"/>
+                        <path d="M28 38 L40 28 L52 38 L52 48 L40 58 L28 48 Z" fill="var(--color-accent)" opacity="0.15"/>
+                    </svg>
+                </div>
+                <h1 class="service-hero-title">Sites & Landing Pages</h1>
+                <p class="service-hero-subtitle">Criamos sites modernos, responsivos e otimizados para converter visitantes em clientes reais.</p>
+                <div class="service-hero-actions">
+                    <a href="index.html#contato" class="btn btn-primary btn-large">Solicitar orçamento</a>
+                    <a href="index.html" class="btn btn-outline">Voltar ao site</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Detalhes do Serviço -->
+    <section class="service-details">
+        <div class="container">
+            <div class="details-grid">
+                <div class="detail-card reveal-bottom" data-reveal-delay="100">
+                    <div class="detail-icon">
+                        <svg viewBox="0 0 48 48" width="40" height="40" fill="none" stroke="var(--color-accent)" stroke-width="1.5">
+                            <rect x="6" y="4" width="36" height="40" rx="4"/>
+                            <path d="M14 14 L34 14"/>
+                            <path d="M14 22 L34 22"/>
+                            <path d="M14 30 L26 30"/>
+                        </svg>
+                    </div>
+                    <h3 class="detail-title">Design Responsivo</h3>
+                    <p class="detail-text">Sites que se adaptam perfeitamente a qualquer dispositivo — desktop, tablet ou celular — garantindo uma experiência impecável para todos os visitantes.</p>
+                </div>
+                <div class="detail-card reveal-bottom" data-reveal-delay="200">
+                    <div class="detail-icon">
+                        <svg viewBox="0 0 48 48" width="40" height="40" fill="none" stroke="var(--color-accent)" stroke-width="1.5">
+                            <circle cx="24" cy="24" r="18"/>
+                            <path d="M18 24 L22 28 L30 20"/>
+                        </svg>
+                    </div>
+                    <h3 class="detail-title">SEO Otimizado</h3>
+                    <p class="detail-text">Cada site é construído com as melhores práticas de SEO, garantindo que seu negócio seja encontrado pelo Google e ganhe posicionamento nos resultados de busca.</p>
+                </div>
+                <div class="detail-card reveal-bottom" data-reveal-delay="300">
+                    <div class="detail-icon">
+                        <svg viewBox="0 0 48 48" width="40" height="40" fill="none" stroke="var(--color-accent)" stroke-width="1.5">
+                            <path d="M24 4 L4 24 L24 44 L44 24 Z"/>
+                            <path d="M24 14 L14 24 L24 34 L34 24 Z" fill="var(--color-accent)" opacity="0.15"/>
+                        </svg>
+                    </div>
+                    <h3 class="detail-title">Alta Performance</h3>
+                    <p class="detail-text">Sites rápidos e leves que carregam em instantes. Performance otimizada para manter seus visitantes engajados e reduzir a taxa de rejeição.</p>
+                </div>
+                <div class="detail-card reveal-bottom" data-reveal-delay="400">
+                    <div class="detail-icon">
+                        <svg viewBox="0 0 48 48" width="40" height="40" fill="none" stroke="var(--color-accent)" stroke-width="1.5">
+                            <rect x="8" y="8" width="32" height="32" rx="6"/>
+                            <path d="M18 24 L30 24"/>
+                            <path d="M24 18 L24 30"/>
+                        </svg>
+                    </div>
+                    <h3 class="detail-title">Landing Pages de Conversão</h3>
+                    <p class="detail-text">Páginas focadas em converter — com chamadas claras, formulário otimizado e design direcionado para maximizar cada clique em resultado real.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- O que entregamos -->
+    <section class="service-deliverables">
+        <div class="container">
+            <div class="section-label reveal-top">O que você recebe</div>
+            <h2 class="section-title reveal-top" data-reveal-delay="100">Entregas do serviço</h2>
+            <div class="deliverables-list">
+                <div class="deliverable-item reveal-left" data-reveal-delay="100">
+                    <span class="deliverable-number">01</span>
+                    <div class="deliverable-content">
+                        <h4>Layout exclusivo e personalizado</h4>
+                        <p>Design único criado sob medida para a identidade da sua marca, sem templates genéricos.</p>
+                    </div>
+                </div>
+                <div class="deliverable-item reveal-left" data-reveal-delay="200">
+                    <span class="deliverable-number">02</span>
+                    <div class="deliverable-content">
+                        <h4>Site 100% responsivo</h4>
+                        <p>Funciona perfeitamente em celulares, tablets e computadores — cada pixel no lugar certo.</p>
+                    </div>
+                </div>
+                <div class="deliverable-item reveal-left" data-reveal-delay="300">
+                    <span class="deliverable-number">03</span>
+                    <div class="deliverable-content">
+                        <h4>Otimização para SEO</h4>
+                        <p>Meta tags, velocidade de carregamento, estrutura de dados e tudo que o Google precisa para ranquear seu site.</p>
+                    </div>
+                </div>
+                <div class="deliverable-item reveal-left" data-reveal-delay="400">
+                    <span class="deliverable-number">04</span>
+                    <div class="deliverable-content">
+                        <h4>Integração com WhatsApp</h4>
+                        <p>Botão flutuante de contato direto para que clientes te encontrem em um clique.</p>
+                    </div>
+                </div>
+                <div class="deliverable-item reveal-left" data-reveal-delay="500">
+                    <span class="deliverable-number">05</span>
+                    <div class="deliverable-content">
+                        <h4>Hospedagem e domínio</h4>
+                        <p>Configuração completa: domínio, hospedagem, SSL e publicação do seu site no ar.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA final -->
+    <section class="service-cta">
+        <div class="container">
+            <div class="service-cta-content reveal-scale">
+                <h2>Pronto para ter um site que converte?</h2>
+                <p>Vamos criar juntos a presença digital que sua marca merece.</p>
+                <a href="index.html#contato" class="btn btn-primary btn-large">Falar com a equipe</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Script -->
+    <script src="script.js"></script>
+    <script src="https://unpkg.com/scrollreveal"></script>
+</body>
+</html>
